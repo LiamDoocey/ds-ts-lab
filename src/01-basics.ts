@@ -21,7 +21,16 @@ console.log(friends[1]);
 
 // --------------------------------------------------
 
-const colleague1 = {
+interface Colleague {
+    name: string;
+    department: string;
+    contact: {
+        extenstion: number;
+        email: string;
+    };
+}
+
+const colleague1: Colleague = {
     name: 'Mary Jane',
     department: 'HR',
     contact: {
@@ -30,7 +39,7 @@ const colleague1 = {
     }
 };
 
-const colleague2 = {
+const colleague2: Colleague = {
     name: 'John Doe',
     department: 'IT',
     contact: {
@@ -39,7 +48,7 @@ const colleague2 = {
     }
 };
 
-const colleague3 = {
+const colleague3: Colleague = {
     name: 'Jane Doe',
     department: 'IT',
     contact: {
