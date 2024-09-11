@@ -4,13 +4,13 @@ import { Friend, Colleague, ColleagueHistory } from "./myTypes";
 const friend1: Friend = {
     name: 'Thomas',
     phone: '087-123-4567',
-    age: 25
+    age: 20
 };
 
 const friend2: Friend = {
     name: 'Ben',
     phone: '087-765-4321',
-    age: 28
+    age: 20
 };
 
 export const friends: Friend[]  = [friend1, friend2];
@@ -41,7 +41,7 @@ const colleague3: Colleague = {
     name: 'Jane Doe',
     department: 'IT',
     contact: {
-        extenstion: 5678,
+        extenstion: 41574,
         email: 'jane@gmail.com'
     }
 };
