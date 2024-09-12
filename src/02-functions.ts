@@ -81,3 +81,13 @@ function findFriends(friends: Friend[], matches:(f: Friend) => boolean){
 console.log("\nfindFriends results: \n");
 console.log(findFriends(friends, f => f.age == 22));
 console.log(findFriends(friends, f => f.name.startsWith("B")));
+
+function addInterest(f: Friend, interest: string){
+    if (!f.interests){
+        f.interests = [];
+    }
+    f.interests.push(interest);
+    return f.interests;
+}
+console.log("\naddInterest results: \n");
+console.log(addInterest(friends[0], "Coding"));
