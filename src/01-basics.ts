@@ -11,7 +11,7 @@ const friend1: Friend = {
 const friend2: Friend = {
     name: 'Ben',
     phone: '087-765-4321',
-    age: 20,
+    age: 21,
     interests: ['Music', 'Reading', 'Coding'],
 };
 
