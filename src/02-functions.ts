@@ -82,6 +82,7 @@ console.log("\nfindFriends results: \n");
 console.log(findFriends(friends, f => f.age == 22));
 console.log(findFriends(friends, f => f.name.startsWith("B")));
 
+
 function addInterest(f: Friend, interest: string){
     if (!f.interests){
         f.interests = [];
